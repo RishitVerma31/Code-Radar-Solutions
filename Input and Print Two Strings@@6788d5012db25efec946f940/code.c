@@ -3,6 +3,6 @@ int main() {
     char a[100];
     char b[100];
     scanf("%99s %99s",a b);
-    printf("You entered: %s",a," and ",b);
+    printf("You entered: %s",a" and ",b);
     return 0;
 }
