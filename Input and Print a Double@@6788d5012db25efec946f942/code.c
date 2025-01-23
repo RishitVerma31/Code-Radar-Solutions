@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     double a;
-    scanf("%If",&a);
-    printf("You entered: %If\n",a);
+    scanf("%if",&a);
+    printf("You entered: %if\n",a);
     return 0;
 }
