@@ -2,7 +2,7 @@
 int main() {
     int a,n;
     scanf("%d %d",&a ,&n);
-    if(n>sizeof(a)){
+    if(n>=sizeof(a)){
         printf("1");
     }
     else{
