@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main() {
-    int a,b;
-    scanf("%d %d",&a,&b);
-    a = a^b;
-    b = b^a;
-    a = a^b;
-    printf("%d &d\n",a,b);
+    int chole,bhature;
+    scanf("%d %d",&chole,&bhature);
+    chole = chole^bhature;
+    bhature = bhature^chole;
+    chole = chole^bhature;
+    printf("%d &d",chole,bhature);
     return 0;
 }
