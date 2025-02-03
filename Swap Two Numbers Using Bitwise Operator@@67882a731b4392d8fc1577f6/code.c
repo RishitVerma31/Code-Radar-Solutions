@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main() {
     int chole,bhature;
     scanf("%d %d",&chole,&bhature);
