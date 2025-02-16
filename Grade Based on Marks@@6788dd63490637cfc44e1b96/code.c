@@ -2,7 +2,7 @@
 int main()
 {
     int a;
-    char b;
+    char b[10];
     scanf("%d",&a);
     if(a>=90);
     b='A';
