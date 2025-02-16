@@ -14,5 +14,5 @@ int main()
     b='D';
     else
     b='F';
-    printf("%c",b);
+    printf("%s",b);
 }
