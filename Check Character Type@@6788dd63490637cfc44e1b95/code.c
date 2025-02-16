@@ -2,7 +2,8 @@
 int main() {
     char a;
     scanf("%c",&a);
-    char b[100],c[100];
+    char b[100];
+    char c[100];
     c="aeiou";
     b="bcdfghjklmnpqrstvwxyz";
     if(a in b)
