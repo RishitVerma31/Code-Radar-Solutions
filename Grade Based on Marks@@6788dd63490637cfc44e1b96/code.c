@@ -2,9 +2,9 @@
 int main()
 {
     int a;
-    char b[10];
+    char b;
     scanf("%d",&a);
-    if(a>=90);
+    if(a>=90)
     b='A';
     else if(a<90 && a>=80)
     b='B';
@@ -14,5 +14,5 @@ int main()
     b='D';
     else
     b='F';
-    printf("%s",b);
+    printf("%c",b);
 }
