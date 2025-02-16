@@ -7,7 +7,7 @@ int main() {
 
     // Check if character is a digit (0-9)
     if (ch >= '0' && ch <= '9') {
-        printf("Number\n");
+        printf("Digit\n");
     }
     // Check if character is an uppercase or lowercase letter
     else if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
