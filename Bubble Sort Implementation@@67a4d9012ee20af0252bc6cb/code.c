@@ -1,4 +1,4 @@
-int ascending(int a[],int n){
+int bubbleSort(int a[],int n){
     int i,j,temp;
     for(i=0;i<n-1;i++){
         for(j=0;j<n-1;j++){
@@ -8,8 +8,11 @@ int ascending(int a[],int n){
                 a[j+1]=temp;
             }
         }
-        }
-        for(i=0;i<n;i++){
-            printf("%d ",a[i]);
+    }
+}
+int printArray(int a[],int n){
+    int i;
+    for(i=0;i<n;i++){
+        printf("%d",a[i]);
     }
 }
