@@ -1,4 +1,4 @@
-void isPrime(int num){
+int isPrime(int num){
     scanf("%d",&num);
     int a[100],b[100],i,j,c=0;
     for(i=0;i<num;i++){
