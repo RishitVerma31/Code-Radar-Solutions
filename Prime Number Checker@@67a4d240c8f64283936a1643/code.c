@@ -10,10 +10,10 @@ int isPrime(int num){
                 c++;
             }}
             if(c>0){
-                b[i]=0;
+                b[i]=1;
             }
             else{
-                b[i]=1;
+                b[i]=0;
             }
         }
         for(i=0;i<num;i++)
