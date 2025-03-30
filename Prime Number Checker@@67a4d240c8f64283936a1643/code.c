@@ -4,7 +4,7 @@ int isPrime(int num){
         scanf("%d",&a[i]);
     }
     for(i=0;i<num;i++){
-        for(j=2;j<=num/2;j++){
+        for(j=2;j<=num;j++){
             if(a[i]%j==0){
                 c++;
             }}
