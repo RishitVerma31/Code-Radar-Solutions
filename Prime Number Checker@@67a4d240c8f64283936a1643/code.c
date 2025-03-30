@@ -1,21 +1,8 @@
-int isPrime(int num){
-    int a[100],b[100],i,j,c=0;
-    for(i=0;i<num;i++){
-        scanf("%d",&a[i]);
+int isPrime(int num) {
+    if (num < 2) return 0; // Numbers less than 2 are not prime
+    for (int i = 2; i <= sqrt(num); i++) {
+        if (num % i == 0)
+            return 0; // Not a prime number
     }
-    for(i=0;i<num;i++){
-        for(j=2;j<=num;j++){
-            if(a[i]%j==0){
-                c++;
-            }}
-            if(c>0){
-                b[i]=0;
-            }
-            else{
-                b[i]=1;
-            }
-            c=0;
-        }
-        for(i=0;i<num;i++)
-        return b[i];
-    }
+    return 1; // Prime number
+}
